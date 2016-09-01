@@ -1,0 +1,24 @@
+In order to use the the AtmosGasTools package the following directory structure must be present:
+<category> is a placeholder for a specific case of that category, # precedes comments, ... = etc.
+
+\AtmosGasTools
+	\__init__.py
+	...
+	
+\<source1> #e.g. JOIN, WCDGG, NASA...
+	\<station> #where the data was collected
+		\<gas>
+			\<data>.<file_type> #e.g. O3_hourly.dat
+		\Correlations
+
+\<source2>
+	...
+
+\SplitData
+	\<station>
+		\y<year1>
+		\y<year1>
+		...
+
+\Figures
+	\MultiPlots #multiplot function figures are saved here
